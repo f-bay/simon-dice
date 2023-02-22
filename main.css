@@ -13,57 +13,49 @@ body {
     width: 50vh;
 }
 
+.color {
+    opacity: 0.5;
+    transition: opacity 500ms;
+    border: 1px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.color:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
 #boton-verde {
     background-color: green;
     border-top-left-radius: 100%;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
-    border: 1px solid green;
 }
 
-#boton-verde:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
+
 
 #boton-rojo {
     background-color: red;
     border-top-right-radius: 100%;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
-    border: 1px solid red;
 }
 
-#boton-rojo:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
 
 #boton-amarillo {
     background-color: yellow;
     border-bottom-left-radius: 100%;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
-    border: 1px solid yellow;
 }
 
-#boton-amarillo:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
 
 #boton-azul {
     background-color: blue;
     border-bottom-right-radius: 100%;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
-    border: 1px solid blue;
 }
 
-#boton-azul:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
 
 .oculto {
     display: none;
