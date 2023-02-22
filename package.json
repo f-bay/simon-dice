@@ -1,0 +1,22 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Juego simon dice para r/argentina-programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f-bay/simon-dice.git"
+  },
+  "author": "Francisco Bayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f-bay/simon-dice/issues"
+  },
+  "homepage": "https://github.com/f-bay/simon-dice#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
