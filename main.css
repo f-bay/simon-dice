@@ -14,7 +14,7 @@ body {
 }
 
 .color {
-    opacity: 0.5;
+    opacity: 0.25;
     transition: opacity 500ms;
     border: 1px solid black;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

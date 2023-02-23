@@ -92,7 +92,7 @@ function actualizarMensaje(mensaje, error = false) {
 function resaltar(color) {
     color.style.opacity = 1;
     setTimeout(() => {
-        color.style.opacity = 0.5;
+        color.style.opacity = 0.25;
     }, 500);
 }
 
